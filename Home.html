@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home</title>
+<style type="text/css">
+	body{
+		background-color: black;
+		/*background-image: url('photo-of-woman-with-short-hair-3445218.jpg'); */
+		background-size: 100% 100%;
+		background-attachment: fixed;
+		overflow: auto;
+	
+	}
+	
+	ul{
+		background-color: black;
+		width: 100%;
+		height: auto;
+		display: inline;
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		text-decoration: none;
+		text-align: center;
+		overflow: hidden;
+		position: absolute;
+	}
+	li{
+		display: inline;
+		float: left;
+	}
+	
+	 li a{
+		text-decoration: none;
+		text-align: center;
+		height: auto;
+		display: block;
+		font-size: 15px;
+		font-weight: bold;
+		color: white;
+		padding: 10px 10px;
+	}
+	li a.link:hover{
+		background-color:white;
+		color: black;
+		border:2px outset white;
+	}
+	
+
+	picture.image img{
+		position: fixed;
+		top:20%;
+		right:0%;
+        
+		 width: 100%;
+		height: 400px;
+		background-color: black;
+		clear: both;
+		opacity: 0.5;
+	}
+	h1{
+		position: absolute;
+		top: 20%;
+		left:0%;
+		color:#FFD700;
+		max-width: 100%;
+		font-size: 30px;
+		/*overflow: auto; */
+		font-family: "Time New Roman"; 
+	
+	}
+	h1 span.newline{
+		position: absolute;
+		top:30%;
+		left: 10%;
+		color: #FFD700;
+		max-width: 100%;
+		line-height: 50px;
+		overflow:auto ;
+	}
+   h1:first-letter{
+   	text-shadow: 2px 2px;
+   	font-size: 70px;
+   	color:#B8860B;
+   	font-family: "Time New Roman";
+   	   }
+    span.Htext{
+   
+   	width: 100%;
+   	font-family: "Time New Roman";
+   	font-weight: normal;
+   	padding: 10px;
+   	margin-left: 2%;
+   	margin-right: 2%;
+   	word-spacing: 4px;
+  }
+
+ 
+   footer{
+		position:fixed;
+		right: 5%;
+		bottom: 0;
+		width: 100%;
+		overflow: auto;
+		clear: both;
+	}
+	footer p.fot{
+		text-align: center;
+		font-variant: small-caps;
+		color: gray;
+		overflow: auto;
+		clear: both;
+		width: 100%;
+	} 
+	
+
+</style>
+</head>
+<body>
+    
+
+     <ul>
+     	 <li><a href="Home.html"><img src="Home1/logo1.jpg" alt="logo1" style="width: 60px; height: 50px;" ></a></li>
+		<li><a class="link" href="Home.html">Home</a></li>
+		<li><a class="link" href="services.html">Services</a></li>
+		<li><a class="link" href="gallery.html">Gallery</a></li>
+		<li><a class="link" href="contact.html">Contact</a></li>
+		<li><a class="link" href="about.html">About Us</a></li>
+	</ul>
+   <picture class="image">
+    <!--<div class="image">-->
+    	<source media="(min-width:650px)" srcset="Home1/photo-of-woman-with-short-hair-3445218.jpg" style="width:400px; height: 400px;">
+    	<source media="(min-width:465px)" srcset="Home1/photo-of-woman-with-short-hair-3445218.jpg" style="width: 300px; height: 400px;">	
+     	<img src="Home1/photo-of-woman-with-short-hair-3445218.jpg" alt="beauty girl" style="width: auto;">     	
+     <!--</div>-->
+  </picture>
+      <h1>Sheela Beauty Salon <br><span class="newline">Beauty as a gift</span><br><span class="Htext" style="font-size: 20px; width: 100%; height: auto; color: white; font-family: normal;">Sheela Beauty Salon offers the latest and highest quality services for you and all your female family members.We offer a full range of hairdressing services for  women, eyebrow and eyelash care,...<a href="about.html" style="text-decoration: none; color:#FFD700; ">read more</span></h1>
+     
+     <footer>
+		<p class="fot"><span style="color: gray;">design & created by- Bhagwati dangi</span><br><a target="_blank" href="mailto:dangibhagwati34@gmail.com" style="text-decoration: none; color: gray;"><span style="font-variant: normal; text-decoration: none;">Contact: dangibhagwati34@gmail.com</span></a></p>     
+	</footer>
+    
+</body>
+</html>
